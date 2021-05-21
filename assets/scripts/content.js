@@ -26,28 +26,28 @@ export const education = [{
     {
         'title': 'Boros Sámuel High School, Szentes',
         'date': 'September 2005–June 2009',
-        'desc': 'high school specialized in economics'
+        'desc': 'High school specialized in economics'
     },
 ];
 export const work = [{
         'title': 'Rackhost Zrt.',
-        'date': '2017. December - still ',
+        'date': 'December 2017. - still ',
         'desc': 'Tech support team lead System administrator',
     },
     {
         'title': 'Udmurt State University',
         'date': 'February 2017–May 2017',
-        'desc': 'substitute teacher for Hungarian Language',
+        'desc': 'Substitute teacher for Hungarian Language',
     },
     {
         'title': 'University of Szeged',
         'date': 'October 2015–November 2015',
-        'desc': 'project employee for case study of MOOCs',
+        'desc': 'Project employee for case study of MOOCs',
     },
     {
         'title': 'Telekom Hungary',
         'date': 'November 2011–January 2012',
-        'desc': 'student employee of technical support call centre',
+        'desc': 'Student employee of technical support call centre',
     },
 ];
 export const intexp = [{
