@@ -1,0 +1,65 @@
+body {
+    background-color: #cccccc;
+}
+
+a:link,
+a:visited,
+a:active,
+h1 {
+    color: #212121;
+}
+
+section:nth-of-type(even) {
+    background-color: #8ba9af;
+}
+
+.block-wrapper {
+    background-color: #7a91bb;
+    border: 1px #575757 solid;
+}
+
+.block-wrapper:hover {
+    background-color: #5e848d;
+}
+
+.title {
+    color: #cccccc;
+}
+
+.date {
+    color: #212121;
+}
+
+.desc {
+    color: #212121;
+}
+
+@media print {
+    * {
+        color: #000000;
+    }
+    header::before {
+        content: "For the live version, please, visit https://bartfelder.github.io/";
+        display: block;
+    }
+    body {
+        background-color: #ffffff;
+        width: 95%;
+    }
+    section:nth-of-type(even) {
+        background-color: #b2b2b2;
+    }
+    .block-wrapper {
+        background-color: #969696;
+        border: 1px #212121 solid;
+    }
+    .block-wrapper {
+        height: 12vh;
+    }
+    .section-title {
+        height: 12vh;
+    }
+    .block-wrapper:hover {
+        background-color: #969696;
+    }
+}
