@@ -32,14 +32,13 @@ main {
 }
 
 section:nth-of-type(even) {
-    flex-direction: row-reverse;
     background-color: #cccccc;
 }
 
 .block-wrapper {
-    display: inline-block;
     background-color: #696969;
-    width: 45%;
+    border: 1px #424242 solid;
+    height: 20vh;
     padding: 15px;
     transition: 500ms;
 }
@@ -74,15 +73,18 @@ section:nth-of-type(even) {
 .section-title {
     margin: auto 5px;
     vertical-align: middle;
+    width: 15%;
+    height: 20vh;
+}
+
+.section-content {
+    border: none;
+    border-spacing: 0px;
+    width: 85%;
 }
 
 .section-wrapper {
     display: flex;
-    flex: content;
-}
-
-.school-wrapper {
-    display: block;
 }
 
 .title {
