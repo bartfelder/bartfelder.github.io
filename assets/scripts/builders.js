@@ -1,5 +1,5 @@
 export const createBlock = function(content, parent) {
-    let container = document.createElement('td');
+    let container = document.createElement('div');
     container.classList.add('block-wrapper');
     let title = document.createElement('h3');
     title.classList.add('title');

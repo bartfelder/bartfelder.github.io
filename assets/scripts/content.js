@@ -31,7 +31,7 @@ export const education = [{
 ];
 export const work = [{
         'title': 'Rackhost Zrt.',
-        'date': 'December 2017. - still ',
+        'date': 'December 2017-still ',
         'desc': 'Tech support team lead System administrator',
     },
     {

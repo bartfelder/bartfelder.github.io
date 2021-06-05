@@ -80,6 +80,7 @@ section:nth-of-type(even) {
 .section-content {
     border: none;
     border-spacing: 0px;
+    display: flex;
     width: 85%;
 }
 
