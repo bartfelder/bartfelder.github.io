@@ -38,7 +38,7 @@ section:nth-of-type(even) {
 .block-wrapper {
     background-color: #696969;
     border: 1px #424242 solid;
-    height: 20vh;
+    flex-grow: 1;
     padding: 15px;
     transition: 500ms;
 }
@@ -78,8 +78,6 @@ section:nth-of-type(even) {
 }
 
 .section-content {
-    border: none;
-    border-spacing: 0px;
     display: flex;
     width: 85%;
 }
