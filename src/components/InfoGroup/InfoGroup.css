@@ -1,0 +1,8 @@
+.InfoGroup-container {
+  display: flex;
+}
+
+.InfoGroup-content {
+  display: flex;
+  width: 85%;
+}
