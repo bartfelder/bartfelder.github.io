@@ -1,20 +1,44 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./InfoCard.css";
+import styled from "styled-components";
 
-function InfoCard ({title, date, description}) {
+const CardContainer = styled.div`
+  background-color: #696969;
+  border: 1px #424242 solid;
+  flex-grow: 1;
+  padding: 15px;
+  transition: 500ms;
+  &:hover {
+    background-color: #999999;
+  }
+`;
+
+const CardTitle = styled.h3`
+  color: #cccccc;
+`;
+
+const CardDate = styled.p`
+  color: #212121;
+  font-style: italic;
+`;
+
+const CardDescription = styled.p`
+  color: #212121;
+  font-weight: 700;
+`;
+function InfoCard({ title, date, description }) {
   return (
-    <div className="infoCard-container">
-      <h3 className="infoCard-title">{title}</h3>
-      <p className="infoCard-date">{date}</p>
-      <p className="infoCard-description">{description}</p>
-    </div>
-  )
+    <CardContainer>
+      <CardTitle>{title}</CardTitle>
+      <CardDate>{date}</CardDate>
+      <CardDescription>{description}</CardDescription>
+    </CardContainer>
+  );
 }
 
 InfoCard.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
   description: PropTypes.string,
-}
+};
 export default InfoCard;

@@ -1,17 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./InfoGroupHeader.css";
+import styled from "styled-components";
 
-function InfoGroupHeader({ groupTitle }) {
+
+const InfoGroupHeaderTitle = styled.h2`
+  color: #CCCCCC;
+  grid-column: 1;
+  grid-row-start: ${props => props.rowNumber};
+  text-align: right;
+`;
+function InfoGroupHeader({ groupTitle, rowNumber }) {
   return (
-    <div className="InfoGroupHeader-title">
-      <h2>{groupTitle}</h2>
-    </div>
+      <InfoGroupHeaderTitle rowNumber={rowNumber}>{groupTitle}</InfoGroupHeaderTitle>
   );
 }
 
 InfoGroupHeader.propTypes = {
   groupTitle: PropTypes.string,
+  rowNumber: PropTypes.number,
 }
 
 export default InfoGroupHeader

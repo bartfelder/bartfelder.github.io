@@ -1,34 +1,38 @@
-[
-  {
-    "icon": [
-      "fas",
-      "fa-envelope"
-    ],
-    "title": "Email",
-    "url": "mailto:bartfai.csaba.finn@gmail.com"
-  },
-  {
-    "icon": [
-      "fab",
-      "fa-linkedin"
-    ],
-    "title": "Linkedin",
-    "url": "https://www.linkedin.com/in/csaba-bartfai/"
-  },
-  {
-    "icon": [
-      "fab",
-      "fa-github"
-    ],
-    "title": "Github",
-    "url": "https://github.com/bartfelder"
-  },
-  {
-    "icon": [
-      "fas",
-      "fa-code"
-    ],
-    "title": "Codewars",
-    "url": "https://www.codewars.com/users/bartfelder"
-  }
-]
+{
+  "name": "Csaba Bártfai",
+  "title": "Frontend Software Engineer",
+  "contactInfo": [
+    {
+      "icon": [
+        "fas",
+        "fa-envelope"
+      ],
+      "title": "Email",
+      "url": "mailto:bartfai.csaba.finn@gmail.com"
+    },
+    {
+      "icon": [
+        "fab",
+        "fa-linkedin"
+      ],
+      "title": "Linkedin",
+      "url": "https://www.linkedin.com/in/csaba-bartfai/"
+    },
+    {
+      "icon": [
+        "fab",
+        "fa-github"
+      ],
+      "title": "Github",
+      "url": "https://github.com/bartfelder"
+    },
+    {
+      "icon": [
+        "fas",
+        "fa-code"
+      ],
+      "title": "Codewars",
+      "url": "https://www.codewars.com/users/bartfelder"
+    }
+  ]
+}
