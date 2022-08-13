@@ -1,28 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from "styled-components";
+import StyledContactTitle from "./StyledContactTitle";
+import StyledContactLink from "./StyledContactLink";
 
-const ContactTitle = styled.p`
-  display: inline;
-  line-height: 2;
-  padding-left: 10px;
-`;
-
-const ContactLink = styled.a`
-  color: #999999;
-  &:link,
-  &:visited,
-  &:active {
-    text-decoration: none;
-  }
-`
 function Contact({ icon, title, url }) {
   return (
     <li>
-      <ContactLink href={url}>
+      <StyledContactLink href={url}>
         <i className={icon.join(" ")} />
-        <ContactTitle>{title}</ContactTitle>
-      </ContactLink>
+        <StyledContactTitle>{title}</StyledContactTitle>
+      </StyledContactLink>
     </li>
   );
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Primary",
+    "background": "#424242",
+    "textPrimary": "#cccccc",
+    "textSecondary": "#212121",
+    "cardBackground": "#696969",
+    "cardHighlight": "#999999"
+  },
+  {
+    "name": "Dark",
+    "background": "#222222",
+    "textPrimary": "#eeeeee",
+    "textSecondary": "#888888",
+    "cardBackground": "#422121",
+    "cardHighlight": "#214242"
+  },
+  {
+    "name": "Pastel",
+    "background": "#a9c599",
+    "textPrimary": "#706060",
+    "textSecondary": "#756564",
+    "cardBackground": "#e4d7d5",
+    "cardHighlight": "#f09081"
+  }
+]
