@@ -6,7 +6,6 @@ import StyledContactsContainer from "./StyledContactsContainer";
 import StyledContactsList from "./StyledContactsList";
 
 function Contacts({ contactData }) {
-  console.log(contactData);
   return (
     <StyledContactsContainer>
       <StyledContactsList>

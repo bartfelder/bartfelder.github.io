@@ -18,7 +18,7 @@ function Header({ contactData }) {
 }
 
 Header.propTypes = {
-  contactData: PropTypes.array,
+  contactData: PropTypes.object,
 };
 
 export default Header;
