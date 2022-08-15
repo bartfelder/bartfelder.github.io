@@ -19,7 +19,13 @@ function InfoCard({ title, date, description }) {
       <StyledCardTitle>{title}</StyledCardTitle>
       <StyledCardDate>{date}</StyledCardDate>
       <StyledCardDescription>{description}</StyledCardDescription>
-      {isModalOpen && <InfoModal closeModal={closeModal} />}
+      {isModalOpen && 
+        <InfoModal 
+          closeModal={closeModal} 
+          title={title}
+          date={date}
+          description={description}
+          />}
     </StyledCardContainer>
   );
 }
