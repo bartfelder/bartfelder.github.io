@@ -5,12 +5,14 @@
       {
         "title": "EPAM Systems Kft.",
         "date": "September 2021 – still",
-        "description": "Frontend Software Engineer"
+        "description": "Frontend Software Engineer",
+        "longDescription": "I am currently working as a key developer on a healthcare application's frontend. My daily job involves investigations, developing new features, fixing defects, creating documentation, cover code with unit tests, integration tests and sometimes end to end tests. The techstack on the frontend is: Javascript, Typescript, React.js, Redux, Jest, Enzyme, Webdriver IO"
       },
       {
         "title": "Private Tutor for Informatics",
         "date": "October 2020 – May 2021",
-        "description": "Preparing Senior High School Student for Andvanced Final Exam in Python"
+        "description": "Preparing Senior High School Student for Andvanced Final Exam in Python",
+        "longDescription": "I have had the privilige of tutoring a very talented individual in IT in preparation for the Advanced Final Exam in Python language. The tutoring also included using the Microsoft Office suite including Word, PowerPoint, Excel and Access. I have prepared materials for the lessons, corrected and commented homeworks, and provided explanation for each part of the expected tasks."
       },
       {
         "title": "Rackhost Zrt.",
