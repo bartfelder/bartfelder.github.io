@@ -6,7 +6,7 @@ import StyledCardDate from "./StyledCardDate";
 import StyledCardDescription from "./StyledCardDescription";
 import InfoModal from "../InfoModal/InfoModal";
 
-function InfoCard({ title, date, description }) {
+function InfoCard({ title, date, description, longDescription }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = () => setIsModalOpen(true);
   const closeModal = (e) => {
@@ -19,13 +19,15 @@ function InfoCard({ title, date, description }) {
       <StyledCardTitle>{title}</StyledCardTitle>
       <StyledCardDate>{date}</StyledCardDate>
       <StyledCardDescription>{description}</StyledCardDescription>
-      {isModalOpen && 
-        <InfoModal 
-          closeModal={closeModal} 
+      {isModalOpen && (
+        <InfoModal
+          closeModal={closeModal}
           title={title}
           date={date}
           description={description}
-          />}
+          longDescription={longDescription}
+        />
+      )}
     </StyledCardContainer>
   );
 }
@@ -34,5 +36,6 @@ InfoCard.propTypes = {
   title: PropTypes.string,
   date: PropTypes.string,
   description: PropTypes.string,
+  longDescription: PropTypes.string,
 };
 export default InfoCard;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledAppContainer = styled.div`
+  margin: 0 auto;
   display: grid;
   column-gap: 5px;
   row-gap: 20px;
