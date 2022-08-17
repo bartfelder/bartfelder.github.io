@@ -6,28 +6,31 @@
         "title": "EPAM Systems Kft.",
         "date": "September 2021 – still",
         "description": "Frontend Software Engineer",
-        "longDescription": "I am currently working as a key developer on a healthcare application's frontend. My daily job involves investigations, developing new features, fixing defects, creating documentation, cover code with unit tests, integration tests and sometimes end to end tests. The techstack on the frontend is: Javascript, Typescript, React.js, Redux, Jest, Enzyme, Webdriver IO"
+        "longDescription": "I am currently working as a key developer on a healthcare application's front end. My daily job involves investigations, developing new features, fixing defects, creating documentation, covering code with unit tests, integration tests, and sometimes end-to-end tests. The tech stack on the frontend is: Javascript, Typescript, React.js, Redux, Jest, Enzyme, Webdriver IO"
       },
       {
         "title": "Private Tutor for Informatics",
         "date": "October 2020 – May 2021",
         "description": "Preparing Senior High School Student for Andvanced Final Exam in Python",
-        "longDescription": "I have had the privilige of tutoring a very talented individual in IT in preparation for the Advanced Final Exam in Python language. The tutoring also included using the Microsoft Office suite including Word, PowerPoint, Excel and Access. I have prepared materials for the lessons, corrected and commented homeworks, and provided explanation for each part of the expected tasks."
+        "longDescription": "I have had the privilege of tutoring a very talented individual in IT in preparation for the Advanced Final Exam in Python language. The tutoring also included using the Microsoft Office suite including Word, PowerPoint, Excel, and Access. I have prepared materials for the lessons, corrected and commented on homework, and explained each part of the expected tasks."
       },
       {
         "title": "Rackhost Zrt.",
         "date": "October 2018 – August 2021",
-        "description": "Linux System Administrator"
+        "description": "Linux System Administrator",
+        "longDescription": "As a Linux system administrator, my duty was to make sure our web servers run continuously without problems and provide L2 support for customers. Bash scripting and writing using small python scripts to automate notifications and monitoring was a part of my daily job. Apache and Nginx server installation, configuration, and maintenance were also part of my duties. I've practiced configuration management with SaltStack and took part in migrating virtual machines."
       },
       {
         "title": "Rackhost Zrt.",
         "date": "December 2017 – August 2021",
-        "description": "Tech Support Team Lead"
+        "description": "Tech Support Team Lead",
+        "longDescription": "I started my professional career in the IT sector as a Customer Support representative at a web hosting company. I have helped customers with different kind of domain and web hosting related issues, and later on with specific website problems even. After a few months, I have risen to the rank of Tech Support Team Lead, and it was my job to coordinate a small team of few people, to achieve maximum customer satisfaction. My tasks included: creating wiki articles for customers, write a complete handbook about our custom systems, which was later used as onboarding material for new team members."
       },
       {
         "title": "Udmurt State University",
         "date": "February 2017 – May 2017",
-        "description": "Substitute teacher for Hungarian Language"
+        "description": "Substitute teacher for Hungarian Language",
+        "longDescription": "As a part of my linguistic Ph.D. research, I have helped the local Hungarian lecturers by teaching Hungarian Language courses a couple of hours a week. This experience helped me advance my tutoring and teaching skills and also communication skills in limited shared language situations."
       }
     ]
   },
