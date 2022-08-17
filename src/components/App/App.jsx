@@ -17,11 +17,10 @@ import StyledThemeButton from "./StyledThemeButton";
 
 function App() {
   /**
-   * TODO
+   * Future TODO ideas
    *
-   * 1, add InfoModal functionality
-   * 2, export to pdf
-   * 3, allow editing
+   * 1, export to pdf
+   * 2, allow editing
    *
    */
   const contentLength = contents.length;
