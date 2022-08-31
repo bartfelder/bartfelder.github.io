@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Card>
       <Grid container>
-        <Grid xs={5} md={4}>
+        <Grid xs={5} md={4} sx={{ alignSelf: "center" }} >
           <CardHeader
             avatar={
               <Avatar
