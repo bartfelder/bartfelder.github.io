@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux";
 import Avatar from "@mui/material/Avatar";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -8,10 +9,13 @@ import PropertyText from "./TextTypes/PropertyText";
 import ValueText from "./TextTypes/ValueText";
 
 const Header = () => {
+  const { name, title, race, characterClass, level, background, religion } =
+    useSelector((state) => state.character);
+
   return (
     <Card>
       <Grid container>
-        <Grid xs={5} md={4} sx={{ alignSelf: "center" }} >
+        <Grid xs={5} md={4} sx={{ alignSelf: "center" }}>
           <CardHeader
             avatar={
               <Avatar
@@ -20,8 +24,8 @@ const Header = () => {
                 sx={{ width: 100, height: 100 }}
               />
             }
-            title="Csaba Bartfai"
-            subheader="Frontend Software Engineer"
+            title={name}
+            subheader={title}
           />
         </Grid>
         <Grid xs={3} md={2}>
@@ -35,11 +39,11 @@ const Header = () => {
         </Grid>
         <Grid xs={4} md={6}>
           <CardContent>
-            <ValueText>Human</ValueText>
-            <ValueText>Code Mage</ValueText>
-            <ValueText>31</ValueText>
-            <ValueText>Scientist</ValueText>
-            <ValueText>Clean Code Fanatic</ValueText>
+            <ValueText>{race}</ValueText>
+            <ValueText>{characterClass}</ValueText>
+            <ValueText>{level}</ValueText>
+            <ValueText>{background}</ValueText>
+            <ValueText>{religion}</ValueText>
           </CardContent>
         </Grid>
       </Grid>

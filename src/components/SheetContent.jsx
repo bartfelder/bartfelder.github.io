@@ -6,14 +6,14 @@ import Grid from "@mui/material/Unstable_Grid2";
 
 const SheetContent = () => (
   <Grid container spacing={1}>
-    <Grid xs={3}>
+    <Grid xs={6} md={3}>
       <Traits />
       <Skills />
     </Grid>
-    <Grid xs={2}>
+    <Grid xs={6} md={2}>
       <Spells />
     </Grid>
-    <Grid xs={7}>
+    <Grid xs={12} md={7}>
       <Adventures />
     </Grid>
   </Grid>
