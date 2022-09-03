@@ -25,7 +25,7 @@ export const adventuresSlice = createSlice({
       id: "ad-04",
       title: "Chapter III: The Kingdom of Wizards and Sorceress",
       description:
-        "After my apprenticeship as a prospective mage for little more than three years, finally I received my letter to become a wizard in name as well. The wizarding world's well-known Enchanted Place of All Magic (EPAM) accepted me first as a Junior Wizard of Illusions (sometimes called a Frontend Engineer), but shortly I rose through the ranks and became a Wizard of Illusions and a priest for the Clean Code Church. Today I practice my spells regularly and I'm trying to learn new ones, to reach the title of Senior Wizard of the Whole, and maybe one day become Arcwizard or in another term Arch-itect.",
+        "After my apprenticeship as a prospective mage for little more than three years, finally I received my letter to become a wizard in name as well. The wizarding world's well-known Enchanted Place of All Magic (EPAM) accepted me first as a Junior Wizard of Illusions (sometimes called a Frontend Engineer), but shortly I rose through the ranks and became a Wizard of Illusions and a priest for the Clean Code Church. Today I practice my spells regularly and I'm trying to learn new ones, to reach the title of Senior Wizard of the Whole, and maybe one day become Archwizard or in another term Arch-itect.",
     },
   ],
   reducers: {
