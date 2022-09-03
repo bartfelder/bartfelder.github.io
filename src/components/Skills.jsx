@@ -9,7 +9,7 @@ const Skills = () => {
   const skills = useSelector((state) => state.skills);
 
   return (
-    <Card>
+    <Card sx={{ height: "calc(50% - 1rem)" }}>
       <CardHeader sx={{ paddingBottom: 0 }} title="Skills" />
       <CardContent>
         {skills.map((skill) => (

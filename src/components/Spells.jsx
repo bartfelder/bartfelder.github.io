@@ -4,9 +4,11 @@ import CardContent from "@mui/material/CardContent";
 import CardHeader from "@mui/material/CardHeader";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
+import Rating from "@mui/material/Rating";
 
 const Spells = () => {
   const spells = useSelector((state) => state.spells);
+  const MAX_STARS = 4;
 
   return (
     <Card sx={{ height: "100%" }}>
@@ -16,7 +18,11 @@ const Spells = () => {
           <div key={spell.id}>
             <Divider sx={{ marginBottom: 1 }} />
             {spell.icon}
-            <Typography variant="body2" sx={{ fontWeight: 700 , paddingBottom: 1}}>
+            <Rating value={spell.level} max={MAX_STARS} readOnly />
+            <Typography
+              variant="body2"
+              sx={{ fontWeight: 700, paddingBottom: 1 }}
+            >
               {spell.title}
             </Typography>
           </div>
