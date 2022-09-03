@@ -12,16 +12,16 @@ const Spells = () => {
 
   return (
     <Card sx={{ height: "100%" }} elevation={4}>
-      <CardHeader title="Spells" sx={{ paddingBottom: 0 }} />
+      <CardHeader title="Spells" sx={{ pb: 0 }} />
       <CardContent>
         {spells.map((spell) => (
           <div key={spell.id}>
-            <Divider sx={{ marginBottom: 1 }} />
+            <Divider sx={{ mb: 1 }} />
             {spell.icon}
             <Rating value={spell.level} max={MAX_STARS} readOnly />
             <Typography
               variant="body2"
-              sx={{ fontWeight: 700, paddingBottom: 1 }}
+              sx={{ fontWeight: 700, pb: 1 }}
             >
               {spell.title}
             </Typography>

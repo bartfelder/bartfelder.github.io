@@ -10,7 +10,7 @@ const Adventures = () => {
 
   return (
     <Card sx={{ height: "100%" }} elevation={4}>
-      <CardHeader title="Adventures" sx={{ paddingBottom: 0 }} />
+      <CardHeader title="Adventures" sx={{ pb: 0 }} />
       <CardContent>
         {adventures.map((adventure) => (
           <div key={adventure.id}>
@@ -20,7 +20,7 @@ const Adventures = () => {
             </Typography>
             <Typography
               variant="body2"
-              sx={{ textAlign: 'justify', paddingBottom: 1}}
+              sx={{ textAlign: 'justify', pb: 1}}
               gutterBottom
             >
               {adventure.description}

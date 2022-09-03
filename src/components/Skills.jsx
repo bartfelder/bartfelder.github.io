@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <Card sx={{ height: "calc(50% - 1rem)" }} elevation={4} >
-      <CardHeader sx={{ paddingBottom: 0 }} title="Skills" />
+      <CardHeader sx={{ pb: 0 }} title="Skills" />
       <CardContent>
         {skills.map((skill) => (
           <div key={skill.id}>
