@@ -9,7 +9,7 @@ const Traits = () => {
   const traits = useSelector((state) => state.traits);
 
   return (
-    <Card sx={{ marginBottom: '1rem', height: '50%'}}>
+    <Card sx={{ marginBottom: '1rem', height: '50%'}} elevation={4}>
       <CardHeader sx={{ paddingBottom: 0 }} title="Traits" />
       <CardContent>
         {traits.map((trait) => (

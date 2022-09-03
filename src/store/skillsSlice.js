@@ -6,17 +6,17 @@ export const skillsSlice = createSlice({
     {
       id: "sk-01",
       title: "Keyboard artist",
-      description: "Types text at supernatural speed",
+      description: "types text at supernatural speed",
     },
     {
       id: "sk-02",
       title: "Master investigator",
-      description: "Can diagnose issues with the scientific method in no time",
+      description: "can diagnose issues with the scientific method in no time",
     },
     {
       id: "sk-03",
       title: "Scribe's apprentice",
-      description: "Creates documentation that is almost more art than science",
+      description: "creates documentation that is almost more art than science",
     },
   ],
   reducers: {

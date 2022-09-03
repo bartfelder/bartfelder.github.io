@@ -11,7 +11,7 @@ const Spells = () => {
   const MAX_STARS = 4;
 
   return (
-    <Card sx={{ height: "100%" }}>
+    <Card sx={{ height: "100%" }} elevation={4}>
       <CardHeader title="Spells" sx={{ paddingBottom: 0 }} />
       <CardContent>
         {spells.map((spell) => (

@@ -11,7 +11,7 @@ export const spellsSlice = createSlice({
   initialState: [
     {
       id: "sp-01",
-      title: "Javascriptology",
+      title: "Javascriptomancy",
       icon: <JsIcon />,
       level: 3
     },

@@ -9,8 +9,8 @@ const Adventures = () => {
   const adventures = useSelector((state) => state.adventures);
 
   return (
-    <Card sx={{ height: "100%" }}>
-      <CardHeader title="Adventures" />
+    <Card sx={{ height: "100%" }} elevation={4}>
+      <CardHeader title="Adventures" sx={{ paddingBottom: 0 }} />
       <CardContent>
         {adventures.map((adventure) => (
           <div key={adventure.id}>
@@ -20,7 +20,7 @@ const Adventures = () => {
             </Typography>
             <Typography
               variant="body2"
-              sx={{ fontStyle: "italic" }}
+              sx={{ textAlign: 'justify', paddingBottom: 1}}
               gutterBottom
             >
               {adventure.description}
