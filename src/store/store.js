@@ -3,6 +3,7 @@ import characterReducer from "./characterSlice";
 import traitsReducer from "./traitsSlice";
 import skillsReducer from "./skillsSlice";
 import spellsReducer from "./spellsSlice";
+import adventuresReducer from "./adventuresSlice";
 
 export default configureStore({
   reducer: {
@@ -10,5 +11,6 @@ export default configureStore({
     traits: traitsReducer,
     skills: skillsReducer,
     spells: spellsReducer,
+    adventures: adventuresReducer,
   },
 });
