@@ -6,7 +6,7 @@ export const skillsSlice = createSlice({
     {
       id: "sk-01",
       title: "Keyboard artist",
-      description: "types text at supernatural speed",
+      description: "types text at supernatural speeds when Backspace is included",
     },
     {
       id: "sk-02",

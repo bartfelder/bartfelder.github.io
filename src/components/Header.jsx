@@ -25,7 +25,9 @@ const Header = () => {
               />
             }
             title={name}
+            titleTypographyProps={{ variant: "h5" }}
             subheader={title}
+            subheaderTypographyProps={{ variant: "body1" }}
           />
         </Grid>
         <Grid xs={3} md={2}>
