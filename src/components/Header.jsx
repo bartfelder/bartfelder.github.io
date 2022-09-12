@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <Card>
       <Grid container>
-        <Grid xs={5} md={4} sx={{ alignSelf: "center" }}>
+        <Grid xs={12} sm={5} md={4} sx={{ alignSelf: "center" }}>
           <CardHeader
             avatar={
               <Avatar
@@ -30,7 +30,7 @@ const Header = () => {
             subheaderTypographyProps={{ variant: "body1" }}
           />
         </Grid>
-        <Grid xs={3} md={2}>
+        <Grid xs={4} sm={3} md={2}>
           <CardContent>
             <PropertyText>Race:</PropertyText>
             <PropertyText>Class:</PropertyText>
@@ -39,7 +39,7 @@ const Header = () => {
             <PropertyText>Religion:</PropertyText>
           </CardContent>
         </Grid>
-        <Grid xs={4} md={6}>
+        <Grid xs={8} sm={4} md={6}>
           <CardContent>
             <ValueText>{race}</ValueText>
             <ValueText>{characterClass}</ValueText>
